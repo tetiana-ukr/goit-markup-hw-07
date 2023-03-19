@@ -37,7 +37,7 @@
     </address>
                 
               </div> 
-              <div class="container-main-nav-mobile ">
+              <div class="container main-nav-mobile ">
                 <a href="./index.html" class="logo"><span class="logo-first">Web</span><span class="logo-second">Studio</span></a>
                 <button class="menu-burger-button js-open-menu" type="button" aria-expanded="true">
                   <svg class="burger-icon-button" width="32" height="22" aria-label="мобільне меню">
@@ -47,7 +47,7 @@
                   </svg>
                 </button>
               </div>
-              <div class="mobile-menu js-menu-container is-open">
+              <div class="mobile-menu js-menu-container">
                 <div class="containar mobile-menu-container">
                   <button class="close-mobile-button js-close-menu" type="button" aria-expanded="false">
                   <svg class="close-icon-menu" width="24" height="24">
@@ -197,9 +197,27 @@
                                    
                                     <h2 class="header-works">What are we doing</h2>
                                           <ul class="container-works-list">
-                                                        <li class="list-items-works"><img src="./images/desktop.jpg"  alt="Development desktop" width="360" height="300" ></li>
-                                                        <li class="list-items-works"><img src="./images/mob.jpg" alt="Development mobile app" width="360" height="300"></li>
-                                                        <li class="list-items-works"><img src="./images/support.jpg" alt="Support" width="360" height="300"></li>
+                                                        <li class="list-items-works">
+                                                          <img srcset="./images/desktop.jpg 1x, ./images/desktop@2x.jpg 2x"
+                                                           src="./images/desktop.jpg"  
+                                                           alt="Development desktop" 
+                                                           width="360"
+                                                            height="300">
+                                                          </li>
+                                                        <li class="list-items-works">
+                                                          <img srcset="./images/mob.jpg 1x, ./images/mob@2x.jpg 2x"
+                                                          src="./images/mob.jpg"
+                                                           alt="Development mobile app"
+                                                            width="360"
+                                                             height="300">
+                                                            </li>
+                                                        <li class="list-items-works">
+                                                          <img srcset="./images/support.jpg 1x, ./images/support@2x 2x"
+                                                          src="./images/support.jpg" 
+                                                          alt="Support" 
+                                                          width="360"
+                                                           height="300">
+                                                          </li>
                                           </ul>
                                    
                                   </div > 
